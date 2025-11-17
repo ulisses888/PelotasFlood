@@ -1,8 +1,8 @@
 /**
  * Name: PelotasEnchente
- * Author: Ulisses
- * Versão: 0.2.0
- * Descrição: Simulação de enchente em Pelotas com otimização de performance
+ * Author: Ulisses, Leticia e Agatha
+ * Versão: 1.0.0 (Falta ainda retirar algumas variaveis desnecessarias, existe espaço para melhorar a performance tbm)
+ * Descrição: Simulação de inundação na cidade de Pelotas
  */
 
 model PelotasEnchente
@@ -246,7 +246,7 @@ grid cell file: dem_file neighbors: 8 frequency: 0 use_regular_agents: false use
    // Height of the water in the cell
    float water_height <- 0.0 min: 0.0;
    // Height of the cell
-   float height;
+   //float height;
    // List of the neighbour cells
    list<cell> neighbour_cells;
    // Boolean to know if it is a drain cell
